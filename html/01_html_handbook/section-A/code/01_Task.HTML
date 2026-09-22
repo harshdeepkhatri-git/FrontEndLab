@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="view report"
+         content="width = device-width, 
+         initial-scale = 1.0">
+       
+        <title>documents</title>
+    </head>
+    <body>
+       <fieldset>
+          <legend>big form</legend>
+
+        <form>
+            <!--username input Section start here -->
+            <section>
+                <label for="username">username : </label>
+                <input type="text" name="username" id="username" required>   
+            </section>
+            <br>
+            
+            <!--username input Section end here -->
+
+            <!--email input Section start here -->
+            <section>
+                <label for="email">email : </label>
+                <input type="text" name="email" id="email">   
+            </section>
+            <br>
+            
+            <!--email input Section end here -->
+
+            <!--password input Section start here -->
+            <section>
+                <label for="password">password : </label>
+                <input type="password" name="password" id="password">   
+            </section>
+            <br>
+            
+            <!--password input Section end here -->
+
+            <!--confirm_password input Section start here -->
+            <section>
+                <label for="confirm_password">Confirm Password : </label>
+                <input type="password" name="confirm_password" id="confirm_password">   
+            </section>
+            <br>
+            <!--confirm_password input Section end here -->
+
+            <!-- select your gender-->
+             <p>Select your gender</p>
+             <section>
+                <label for="male">male</label>
+                <input type="radio" name="gender" id="male" value="male" checked/>
+                <label for="female">female</label>
+                <input type="radio" name="gender" id="female" value="female" />
+                <label for="other">other</label>
+                <input type="radio" name="gender" id="other" value="other" />
+             </section>
+             <br>
+
+
+            <!-- select your Skills-->
+             <p>Select your Skills: </p>
+             <section>
+                <label for="html">html</label>
+                <input type="checkbox" name="Skill" id="html" value="html" checked />
+
+                <label for="CSS">CSS</label>
+                <input type="checkbox" name="Skill" id="CSS" value="CSS" />
+
+                <label for="java">java</label>
+                <input type="checkbox" name="Skill" id="java" value="java" />
+             </section>
+             <br>
+
+             <!-- select your course-->
+
+             <p>Select your course</p>
+             <select name="course name">
+                <option disabled selected >---Select your course---</option>
+                <option >frontend</option>
+                <option >react</option>
+                <option value="Java ">java</option>
+             </select>
+             <br>      
+             <br>
+
+              <!-- !! Feedback field-->
+
+            <label for="feedback">feedback :</label>
+            <br>
+            <textarea name="feedback" id="feedback" placeholder="Enter the feedback of html class"
+            rows="10" cols="60"> </textarea>
+            
+            <br>
+            <br>
+             
+
+
+            <button>submit</button>
+            <button type="reset">reset</button>
+             </form>
+
+
+       </fieldset>
+
+        </body>
+        </html>
