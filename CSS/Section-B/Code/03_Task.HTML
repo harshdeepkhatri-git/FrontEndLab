@@ -1,15 +1,49 @@
 <!-- Font Size
+ >> font-size controls text size.
+ >> Units: px, em, rem, %.
  
+ Syntax: 
+ selector {
+     font-size: 20px;
+} 
+
 -->
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        h1 {
+            font-size: 30px;
+        }
+
+
+        p {
+            font-size: 150%;
+        }
+
+        text {
+            font-size: 2em;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <!-- 1. Set font size of heading to 30px. -->
+    <h1>Font Size is 30px.</h1>
+
+   <!-- 2. Make a paragraph 120%.  -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptas, reprehenderit omnis pariatur nihil
+        voluptatum? Ullam rerum reiciendis officiis reprehenderit repellendus eius aliquam recusandae modi.</p>
+
+      <!-- 3. Try using 2em size for text.  -->
+    <text>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil voluptate illum atque commodi tempora aliquam,
+        incidunt, quisquam, voluptatem nulla veniam optio impedit asperiores consequuntur esse.</text>
 </body>
+
 </html>
